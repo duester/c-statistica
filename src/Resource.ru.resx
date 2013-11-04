@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="btnOk" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="mnuColumn" xml:space="preserve">
+    <value>Столбец</value>
+  </data>
+  <data name="mnuColumnAdd" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="mnuColumnRemove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="txtEnterColumnName" xml:space="preserve">
+    <value>Введите название столбца:</value>
+  </data>
+  <data name="mnuSequence" xml:space="preserve">
+    <value>Последовательность</value>
+  </data>
+  <data name="mnuSequenceArithmetic" xml:space="preserve">
+    <value>Арифметическая прогрессия</value>
+  </data>
+  <data name="mnuSequenceBinomialDistribution" xml:space="preserve">
+    <value>Биномиальное распределение</value>
+  </data>
+  <data name="mnuSequenceConst" xml:space="preserve">
+    <value>Постоянные значения</value>
+  </data>
+  <data name="mnuSequenceExpression" xml:space="preserve">
+    <value>Выражение</value>
+  </data>
+  <data name="mnuSequenceNormalDistribution" xml:space="preserve">
+    <value>Нормальное распределение</value>
+  </data>
+  <data name="mnuSequenceUniformDistribution" xml:space="preserve">
+    <value>Равномерное распределение</value>
+  </data>
+  <data name="txtGraphics" xml:space="preserve">
+    <value>Графика</value>
+  </data>
+  <data name="txtText" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="mnuLanguage" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="txtConstant" xml:space="preserve">
+    <value>Константа:</value>
+  </data>
+  <data name="txtCount" xml:space="preserve">
+    <value>Количество:</value>
+  </data>
+  <data name="mnuColumnClear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="txtDiscrete" xml:space="preserve">
+    <value>дискретное</value>
+  </data>
+  <data name="txtExperimentsNumber" xml:space="preserve">
+    <value>Число независимых экспериментов:</value>
+  </data>
+  <data name="txtInitialValue" xml:space="preserve">
+    <value>Начальное значение:</value>
+  </data>
+  <data name="txtMaximalValue" xml:space="preserve">
+    <value>Максимальное значение:</value>
+  </data>
+  <data name="txtMinimalValue" xml:space="preserve">
+    <value>Минимальное значение:</value>
+  </data>
+  <data name="txtStep" xml:space="preserve">
+    <value>Шаг:</value>
+  </data>
+  <data name="txtSuccessProbability" xml:space="preserve">
+    <value>Вероятность успеха:</value>
+  </data>
+  <data name="txtExpectation" xml:space="preserve">
+    <value>Мат. ожидание:</value>
+  </data>
+  <data name="txtStandardDeviation" xml:space="preserve">
+    <value>Стандартное отклонение:</value>
+  </data>
+  <data name="txtExpression" xml:space="preserve">
+    <value>Выражение:</value>
+  </data>
+  <data name="mnuCalculation" xml:space="preserve">
+    <value>Вычисление</value>
+  </data>
+  <data name="mnuCalculation1Variable" xml:space="preserve">
+    <value>1 переменная</value>
+  </data>
+  <data name="mnuCalculation2Variables" xml:space="preserve">
+    <value>2 переменных</value>
+  </data>
+  <data name="txtFunctionNotImplemented" xml:space="preserve">
+    <value>Функция ещё не реализована</value>
+  </data>
+  <data name="ctxtMnuDeleteRow" xml:space="preserve">
+    <value>Удалить выделенные строки</value>
+  </data>
+  <data name="txtMaxValue" xml:space="preserve">
+    <value>макс. значение = {0}</value>
+  </data>
+  <data name="txtMeanValue" xml:space="preserve">
+    <value>среднее значение = {0}</value>
+  </data>
+  <data name="txtMedianValue" xml:space="preserve">
+    <value>медиана = {0}</value>
+  </data>
+  <data name="txtMinValue" xml:space="preserve">
+    <value>мин. значение = {0}</value>
+  </data>
+  <data name="txtQuartiles" xml:space="preserve">
+    <value>Квартили:</value>
+  </data>
+  <data name="txtSampleStandardDeviation" xml:space="preserve">
+    <value>Среднеквадратическое отклонение:</value>
+  </data>
+  <data name="txtSampleVariance" xml:space="preserve">
+    <value>Выборочная дисперсия:</value>
+  </data>
+  <data name="txtStandardDeviationN" xml:space="preserve">
+    <value>σ [n] = {0}</value>
+  </data>
+  <data name="txtStandardDeviationN-1" xml:space="preserve">
+    <value>s [n-1] = {0}</value>
+  </data>
+  <data name="txtVarianceN" xml:space="preserve">
+    <value>S² [n] = {0}</value>
+  </data>
+  <data name="txtVarianceN-1" xml:space="preserve">
+    <value>S² [n-1] = {0}</value>
+  </data>
+  <data name="mnuChart" xml:space="preserve">
+    <value>Диаграмма</value>
+  </data>
+  <data name="mnuChartHistogram" xml:space="preserve">
+    <value>Гистограмма</value>
+  </data>
+  <data name="mnuColumnLoad" xml:space="preserve">
+    <value>Загрузить...</value>
+  </data>
+  <data name="mnuColumnSaveAll" xml:space="preserve">
+    <value>Сохранить все...</value>
+  </data>
+  <data name="mnuColumnSaveSelected" xml:space="preserve">
+    <value>Сохранить выделенные...</value>
+  </data>
+  <data name="txtFrequency" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="txtHistogram" xml:space="preserve">
+    <value>Гистограмма</value>
+  </data>
+  <data name="txtIntervalsNumber" xml:space="preserve">
+    <value>Число интервалов:</value>
+  </data>
+  <data name="txtBorderColor" xml:space="preserve">
+    <value>Цвет рамки:</value>
+  </data>
+  <data name="txtColumnColor" xml:space="preserve">
+    <value>Цвет колонки:</value>
+  </data>
+  <data name="txtFileDialogFilterCSV" xml:space="preserve">
+    <value>Файлы CSV</value>
+  </data>
+  <data name="txtLineChart" xml:space="preserve">
+    <value>Линейная диаграмма</value>
+  </data>
+  <data name="txtLineColor" xml:space="preserve">
+    <value>Цвет линии:</value>
+  </data>
+  <data name="txtPointColor" xml:space="preserve">
+    <value>Цвет точки:</value>
+  </data>
+  <data name="txtScatterPlot" xml:space="preserve">
+    <value>Диаграмма рассеяния</value>
+  </data>
+  <data name="mnuChartLineChart" xml:space="preserve">
+    <value>Линейная диаграмма</value>
+  </data>
+  <data name="mnuChartScatterPlot" xml:space="preserve">
+    <value>Диаграмма рассеяния</value>
+  </data>
+  <data name="mnuChartSaveImage" xml:space="preserve">
+    <value>Сохранить изображение...</value>
+  </data>
+  <data name="mnuChartBoxplot" xml:space="preserve">
+    <value>Ящик с усами</value>
+  </data>
+  <data name="txtBoxplot" xml:space="preserve">
+    <value>Ящик с усами</value>
+  </data>
+  <data name="txtFileDialogFilterTextFiles" xml:space="preserve">
+    <value>Текстовые файлы</value>
+  </data>
+  <data name="mnuCalculationSaveResults" xml:space="preserve">
+    <value>Сохранить результаты...</value>
+  </data>
+  <data name="txtFillColor" xml:space="preserve">
+    <value>Цвет заливки:</value>
+  </data>
+  <data name="txtShowMean" xml:space="preserve">
+    <value>Показывать среднее значение?</value>
+  </data>
+  <data name="txtShowOutliers" xml:space="preserve">
+    <value>Показывать выбросы?</value>
+  </data>
+  <data name="mnuColumnCopy" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="txtCovariance" xml:space="preserve">
+    <value>cov(x, y) = {0}</value>
+  </data>
+  <data name="txtCorrelationCoefficient" xml:space="preserve">
+    <value>r(x, y) = {0}</value>
+  </data>
+  <data name="txtSampleCorrelationCoefficient" xml:space="preserve">
+    <value>Коэффициент корреляции:</value>
+  </data>
+  <data name="txtSampleCovariance" xml:space="preserve">
+    <value>Ковариация:</value>
+  </data>
+  <data name="txtShowAsSpline" xml:space="preserve">
+    <value>Сплайн?</value>
+  </data>
+  <data name="txtShowRegressionLine" xml:space="preserve">
+    <value>Показать линию регрессии?</value>
+  </data>
+</root>
